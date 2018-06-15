@@ -1,0 +1,15 @@
+{
+  "name": "hypelabs-authorization-demo",
+  "version": "1.0.0",
+  "description": "This is just a demo application to show you how to handle authorization requests of the HypeLabs SDK.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HypeLabs Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

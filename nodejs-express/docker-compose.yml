@@ -1,0 +1,10 @@
+version: "2.0"
+services:
+  node:
+    image: "node:8.9"
+    volumes:
+      - .:/app
+    working_dir: "/app"
+    ports:
+      - "5010:5000"
+    command: bash -c "npm start"
