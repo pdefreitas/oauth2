@@ -6,7 +6,7 @@ We do provide a mechanism to allow our developers to specify which devices are p
 ## Sequence Diagram
 The step that this document detail is the interaction between **HypeLabs Certification Service** and **Your A&A Service**, more precisely the **"Prompts authorization"** step.
 
-![Sequence Diagram Picture](./OAuth2.png)
+![Sequence Diagram Picture](https://hypelabs.io/media/images/OAuth2.png)
 
 ## Requirements
 To have authorization you need to set up a web service that will receive the authorization requests. Our authorization feature should work with already existing authorization mechanisms that follow OAuth 2.0 specifications [1]. The interaction between our certification service (resource server) and your authorization & authentication service (A&A service) is beyond the scope of the OAuth 2.0 specification. However, we make sure it is very similar to the interaction between the device and your authentication service regarding exchanged information (api_user, api_password, access_token and token_type).
