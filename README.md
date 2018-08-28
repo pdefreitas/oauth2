@@ -25,22 +25,22 @@ The HTTP method in use is POST.
 #### HTTP URL
 It will use the URL you set in your application settings.
 #### HTTP Content-Type
-appliation/json
+application/json
 #### HTTP Body
 The body contents that your service will receive are like the following. The contents are sent in :
 ```
 {
-    api_user: "...",
-    api_secret: "...",
-    access_token: "...",
-    token_type: "...",
-    user_identifier: "..."
+    "api_user": "...",
+    "api_secret": "...",
+    "access_token": "...",
+    "token_type": "...",
+    "user_identifier": "..."
 }
 ```
 The fields **api_user** and **api_password** are set in your application settings. The **access_token** and the **token_type** are the very same that your authorization server provides to clients, as per OAuth 2.0 Authorization Framework conventions. The **user_identifier** field is only present if the client application provides a valid value that must respect the SDK requirements.
 
 #### HTTP Code/Response
-Our service expects an HTTP Code 200 (Valid) for a valid authorization. The response body is not used at this moment, but it could be used in the feature.
+Our service expects an HTTP Code 200 (Valid) for a valid authorization. The response body is not used at this moment, but it could be used in the future.
 
 ## References
 
